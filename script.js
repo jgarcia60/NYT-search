@@ -18,8 +18,8 @@ function getArticles() {
     "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" +
     search +
     "&facet_fields=pub_year&facet=true";
-  var beginDate = "02/01/2020";
-  var endDate = "09/01/2020";
+  var beginDate = ("#startyear").val();
+  var endDate = ("#endyear").val();
   // var beginArray = beginDate.split("/");
   // beginDate = beginArray[2] + beginArray[0] + beginArray[1];
   // var endArray = endDate.split("/");
